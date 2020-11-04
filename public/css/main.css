@@ -1,0 +1,31 @@
+body {
+    padding-top: 5rem;
+}
+.main-center {
+    padding: 1rem;
+}
+
+.select2-selection__rendered {
+    line-height: 33px !important;
+}
+
+.select2-container .select2-selection--single {
+    height: 37px !important;
+}
+
+.select2-selection__arrow {
+    height: 35px !important;
+}
+
+/* hide arrows from number input */
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
